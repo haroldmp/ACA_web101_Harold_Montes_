@@ -51,3 +51,28 @@ main{
     font-family: Arial, Helvetica, sans-serif;
     width: 490px;
 }
+@media (max-width: 768px){
+  .container{
+      grid-template-columns: repeat(2,1fr);
+  }
+  .text{
+      font-size: 16px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .container{
+      grid-template-columns: 1fr;
+      /* grid-template-rows: repeat(4, auto); */
+  }
+  .column{
+      grid-column: 1;
+      /* grid-row: auto; */
+  }
+  .text{
+      font-size: 10px;
+      color: yellow;
+  }
+ 
+  }

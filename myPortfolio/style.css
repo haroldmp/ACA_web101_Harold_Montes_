@@ -10,12 +10,14 @@ body{
     align-items: left;
     
 }
-#header{
+header{
     display:grid;
     grid-template-columns: 40% 60%;
     width: 100%;
     background-color: purple;
 }
+
+
 main{
     height: auto;
     width: 300;
@@ -23,7 +25,7 @@ main{
     grid-template-columns: 30% 40% 30%;
     background-color: orange;
 }
-nav > a {
+nav >a {
     margin: 2% 2% 2% 2%;
     height: 9%;
     width: 30%;
@@ -50,7 +52,7 @@ nav{
     width: 100%;
     padding-right: 3%;
 }
-#profile-pic {
+.profile {
     width: 300px;
     height: 300px;
     border-radius: 60%;
