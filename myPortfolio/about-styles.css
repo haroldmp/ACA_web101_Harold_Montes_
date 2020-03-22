@@ -1,0 +1,90 @@
+header{
+    border:20px;
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    color: purple;
+    margin-bottom: 10px;
+    display: table; 
+    width: 1400px;
+    height: 400px; 
+    display: flex;  
+    flex-direction: column;
+    background-image: url(https://www.chargebackgurus.com/hs-fs/hubfs/Blog%20Images/Chargebacks%20101%20eGuide/A%20Guide%20to%20Pre-Arbitration%20&%20Arbitration%20for%20Chargeback%20Disputes.jpg?%20Arbitration%20for%20Chargeback%20Disputes.jpg&width=1752&name=A%20Guide%20to%20Pre-Arbitration%20&%20Arbitration%20for%20Chargeback%20Disputes.jpg?%20Arbitration%20for%20Chargeback%20Disputes.jpg)
+}
+
+body{
+    background-color: coral;
+}
+
+
+#section1 {  
+    width: 730px; 
+    display: flex;  
+    flex-direction: column;
+    color:purple;
+}
+.image{
+    width:700px;
+    height: 200px;
+}
+#section2 {  
+    width: 270px; 
+    display: flex;  
+    flex-direction: column;
+    color: purple;
+}
+.indeed{
+    width: 300px;
+    height: 80px;
+}
+.paypal{
+    width: 300px;
+    height: 80px;
+}
+.heb{
+    width: 300px;
+    height: 80px;  
+}
+.dell{
+    width: 300px;
+    height: 80px;
+}
+.microsoft{
+    width: 300px;
+    height: 80px;
+}
+.youtube{
+    width: 300px;
+    height: 80px;
+}
+
+#section3 .contact-info {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    color: purple;
+}
+
+#data-entry {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    color: purple;
+}
+
+#data-entry p {
+    display: inline;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+textarea{
+    height: 50px;
+    color: purple;
+}
+button{
+    background-color: purple;
+    color: white;  
+}

@@ -1,0 +1,53 @@
+header {
+  display: flex;
+}
+.namesection {
+  font-size: 24px;
+  margin: 1em;
+}
+img {
+    height: 300px;
+    width: 300px;
+    font-size: 22em;
+}
+.imgsection {
+display: flex;
+flex-direction: column;
+align-items: center;
+color:blue;
+}
+ #bottomline {
+border-bottom: 2px greenyellow;
+} 
+.fasfa-movile {
+height: 40px;
+width: 40px;
+}
+.fasfa-map-marker-alt{
+height: 40px;
+width: 40px;
+}
+.fabfa-linkedin{
+height: 40px;
+width: 40px;
+}
+main{
+    display: flex;
+}
+.contactsection{
+    background-color:red;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.workhistory{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3em;
+    margin-right: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 490px;
+}
